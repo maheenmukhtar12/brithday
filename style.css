@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=bad+Sans');
+*{
+                         margin: 0%;
+                         padding: 0%;
+                         box-sizing: border-box;
+                         font-family: 'bad script',cursive;
+}
+body{
+                         display: flex;
+                         justify-content: center;
+                         text-align: center;
+                         min-height: 100vh;
+                         position: relative;
+                         top: 300px;
+                         
+                         background-image: url(image/susn-matthiessen-iZmEcoMwFmw-unsplash.jpg);
+
+                       
+                       
+}
+h2{
+                         display: flex;
+                          color: transparent;
+                         font-size: 5vw;
+}
+h2 span{
+                         animation: animate 3s linear infinite;
+}
+ @keyframes animate{
+                         0%{
+                         color: #fff;
+                         filter: blur(2px) hue-rotate(0deg);
+                         text-shadow: 2px 2px 4px rgba(44, 16, 145, 0.5);
+                          text-shadow: 0 0 10px 2px 2px 4px rgba(31, 15, 210, 0.5),
+                         0 0 20px #3208ed53,
+                         0 0 40px   #3208ed53,
+                         0 0 40px  #3208ed53,
+                         0 0 80px   #3208ed53,
+                         0 0 120px   #3208ed53,
+                         0 0 20opx  #3208ed53,
+                         0 0 300px   #3208ed53,
+                         0 0 400px   #3208ed53,
+                         
+                         ; 
+                         } 
+                         30% ,70%{
+                                                  color:#fff;
+                                                  filter: blur(2px) hue-rotate(0deg);
+                                                  ext-shadow: 2px 2px 4px rgba(42, 16, 145, 0.5);
+                          text-shadow: 0 0 10px 2px 2px 4px rgba(41, 15, 210, 0.5),
+                         0 0 20px  #3208ed53,
+                         0 0 40px   #3208ed53,
+                         0 0 40px #3208ed53,
+                         0 0 80px   #3208ed53,
+                         0 0 120px   #3208ed53,
+                         0 0 20opx   #3208ed53,
+                         0 0 300px   #3208ed53,
+                         0 0 400px   #3208ed53,
+                         
+                         ; 
+                                                 
+                         
+}
+ }
+ p{
+                         position: absolute;
+                         left:200px;
+                         top: 190px;
+                         text-align: center;
+                         justify-content: center;
+                         color:#fff;
+                         font-family: 'bad script',cursive;
+                         font-size: 2vw;
+
+}
+
+
+                        
+                         
