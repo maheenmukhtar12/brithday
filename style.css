@@ -13,7 +13,11 @@ body{
                          position: relative;
                          top: 300px;
                          
-                         background-image: url(image/susn-matthiessen-iZmEcoMwFmw-unsplash.jpg);
+                         background-image: url(image/pic.jpg) ;
+                         background-repeat: no-repeat;
+                         background-size:300%;
+                         
+
 
                        
                        
@@ -21,15 +25,15 @@ body{
 h2{
                          display: flex;
                           color: transparent;
-                         font-size: 5vw;
+                         font-size: 10vw;
 }
 h2 span{
                          animation: animate 3s linear infinite;
 }
  @keyframes animate{
                          0%{
-                         color: #fff;
-                         filter: blur(2px) hue-rotate(0deg);
+                         color:black;
+                         /* filter: blur(2px) hue-rotate(0deg);
                          text-shadow: 2px 2px 4px rgba(44, 16, 145, 0.5);
                           text-shadow: 0 0 10px 2px 2px 4px rgba(31, 15, 210, 0.5),
                          0 0 20px #3208ed53,
@@ -40,12 +44,12 @@ h2 span{
                          0 0 20opx  #3208ed53,
                          0 0 300px   #3208ed53,
                          0 0 400px   #3208ed53,
-                         
+                          */
                          ; 
                          } 
                          30% ,70%{
                                                   color:#fff;
-                                                  filter: blur(2px) hue-rotate(0deg);
+                                                  /* filter: blur(2px) hue-rotate(0deg);
                                                   ext-shadow: 2px 2px 4px rgba(42, 16, 145, 0.5);
                           text-shadow: 0 0 10px 2px 2px 4px rgba(41, 15, 210, 0.5),
                          0 0 20px  #3208ed53,
@@ -55,7 +59,7 @@ h2 span{
                          0 0 120px   #3208ed53,
                          0 0 20opx   #3208ed53,
                          0 0 300px   #3208ed53,
-                         0 0 400px   #3208ed53,
+                         0 0 400px   #3208ed53, */
                          
                          ; 
                                                  
@@ -64,14 +68,21 @@ h2 span{
  }
  p{
                          position: absolute;
-                         left:200px;
-                         top: 190px;
+                         left:10px;
+                         top: 153px;
                          text-align: center;
                          justify-content: center;
                          color:#fff;
                          font-family: 'bad script',cursive;
-                         font-size: 2vw;
+                         font-size: 4vw;
 
+}
+h1{
+                         position:absolute;
+                         left: auto;
+                         top: -70px;
+                         font-size: 5vw;
+                         color: #fff;
 }
 
 
